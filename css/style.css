@@ -38,7 +38,7 @@ header a{
 	text-decoration:none;
 	text-transform:uppercase;
 	font-size:16px;
-	text-shadow:0px 1px 1px black;
+	text-shadow:0px 1px 1px grey;
 }
 
 header li{
@@ -75,10 +75,13 @@ header a:hover{
 /* showcase */
 
 #showcase{
-	min-height:20%;
-	background:;
+	min-height:400px;
+	width:100%;
+	background:url('../images/waist2.jpg') no-repeat;	
+	background-size:100%;
 	text-align:center;
 	color:black;
+	text-shadow:1px 1px white;
 }
 
 
@@ -98,17 +101,17 @@ header a:hover{
 
 
 /* products */
-
+                                                                                                                                                                                                         e
 #products{
 	margin-top:0px;
 }
-
+                                                                                                                                                                                                                                                                                                                                     
 #products .pictures{
 	float:left;
 	text-align:center;
 }
 
-#products .pictures img{
+#products .pictures img{                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              
 	display:inline-block;
 	margin-left:0 auto;
 	margin-right:0 auto;
