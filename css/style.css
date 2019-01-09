@@ -8,7 +8,7 @@ body{
 
 /* global */
 .container{
-	width:80%;
+	width:90%;
 	margin:auto;
 	overflow:hidden;
 }
@@ -45,7 +45,8 @@ header li{
 	float:left;
 	display:inline;
 	padding:0 5px 0 5px;
-
+	border-right:solid 1px #ffffff;
+	border-left:solid 1px #ffffff;
 }
 
 header #branding{
@@ -75,10 +76,10 @@ header a:hover{
 /* showcase */
 
 #showcase{
-	min-height:400px;
+	min-height:350px;
 	width:100%;
-	background:url('../images/waist2.jpg') no-repeat;	
-	background-size:100%;
+	background:url('../images/measureTape.jpg') no-repeat;	
+	background-size:cover;
 	text-align:center;
 	color:black;
 	text-shadow:1px 1px white;
@@ -125,7 +126,12 @@ header a:hover{
 }
 
 
+/* footer */
 
+footer{
+	text-align:center;
+	padding-top:50px;
+}
 
 
 
